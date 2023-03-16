@@ -1,4 +1,7 @@
 -- Scripts
+if UnfairHub == true then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end
 if coolbutworseEsp == true then
 local GUI = loadstring(game:GetObjects("rbxassetid://10342057499")[1].Source)()
 syn.protect_gui(GUI)
